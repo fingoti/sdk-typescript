@@ -1,0 +1,21 @@
+{
+  "name": "@fingoti/sdk",
+  "private": false,
+  "version": "1.0.1",
+  "description": "An easy to use library to access Fingoti API functions and device control",
+  "author": "Fingoti",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fingoti/sdk-typescript.git"
+  },
+  "keywords": ["fingoti", "sdk", "iot", "pebl"],
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^4.0"
+  }
+}
